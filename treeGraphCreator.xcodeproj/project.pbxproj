@@ -13,6 +13,10 @@
 		19F0DA061E5BEE31002E1972 /* treeGraphCreator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 19F0DA041E5BEE31002E1972 /* treeGraphCreator.xcdatamodeld */; };
 		19F0DA081E5BEE31002E1972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19F0DA071E5BEE31002E1972 /* Assets.xcassets */; };
 		19F0DA0B1E5BEE31002E1972 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19F0DA091E5BEE31002E1972 /* LaunchScreen.storyboard */; };
+		19F0DA151E5BEE4A002E1972 /* straight line.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F0DA131E5BEE4A002E1972 /* straight line.png */; };
+		19F0DA161E5BEE4A002E1972 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F0DA141E5BEE4A002E1972 /* arrow.png */; };
+		19F0DA181E5BF0FF002E1972 /* TF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F0DA171E5BF0FF002E1972 /* TF.swift */; };
+		19F0DA1A1E5C2D7B002E1972 /* LineAndArrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F0DA191E5C2D7B002E1972 /* LineAndArrow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		19F0DA071E5BEE31002E1972 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19F0DA0A1E5BEE31002E1972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19F0DA0C1E5BEE31002E1972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19F0DA131E5BEE4A002E1972 /* straight line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "straight line.png"; sourceTree = "<group>"; };
+		19F0DA141E5BEE4A002E1972 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		19F0DA171E5BF0FF002E1972 /* TF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TF.swift; sourceTree = "<group>"; };
+		19F0DA191E5C2D7B002E1972 /* LineAndArrow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineAndArrow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +64,11 @@
 		19F0D9FC1E5BEE30002E1972 /* treeGraphCreator */ = {
 			isa = PBXGroup;
 			children = (
-				19F0DA121E5BEE36002E1972 /* New Group */,
+				19F0DA121E5BEE36002E1972 /* Resources */,
 				19F0D9FD1E5BEE30002E1972 /* AppDelegate.swift */,
 				19F0D9FF1E5BEE31002E1972 /* ViewController.swift */,
+				19F0DA171E5BF0FF002E1972 /* TF.swift */,
+				19F0DA191E5C2D7B002E1972 /* LineAndArrow.swift */,
 				19F0DA011E5BEE31002E1972 /* Main.storyboard */,
 				19F0DA071E5BEE31002E1972 /* Assets.xcassets */,
 				19F0DA091E5BEE31002E1972 /* LaunchScreen.storyboard */,
@@ -68,11 +78,13 @@
 			path = treeGraphCreator;
 			sourceTree = "<group>";
 		};
-		19F0DA121E5BEE36002E1972 /* New Group */ = {
+		19F0DA121E5BEE36002E1972 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				19F0DA131E5BEE4A002E1972 /* straight line.png */,
+				19F0DA141E5BEE4A002E1972 /* arrow.png */,
 			);
-			name = "New Group";
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +148,8 @@
 			files = (
 				19F0DA0B1E5BEE31002E1972 /* LaunchScreen.storyboard in Resources */,
 				19F0DA081E5BEE31002E1972 /* Assets.xcassets in Resources */,
+				19F0DA151E5BEE4A002E1972 /* straight line.png in Resources */,
+				19F0DA161E5BEE4A002E1972 /* arrow.png in Resources */,
 				19F0DA031E5BEE31002E1972 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,7 +161,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19F0DA1A1E5C2D7B002E1972 /* LineAndArrow.swift in Sources */,
 				19F0DA001E5BEE31002E1972 /* ViewController.swift in Sources */,
+				19F0DA181E5BF0FF002E1972 /* TF.swift in Sources */,
 				19F0DA061E5BEE31002E1972 /* treeGraphCreator.xcdatamodeld in Sources */,
 				19F0D9FE1E5BEE30002E1972 /* AppDelegate.swift in Sources */,
 			);
